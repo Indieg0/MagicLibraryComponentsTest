@@ -67,14 +67,18 @@ class CustomGestureRecognizer: NSObject {
     
     //MARK: - Helper Methods
     
+    
+    //Calculate the vector between two points
     private class func vectorDistanceBetweenStartPoint(startPoint: CGPoint, and endPoint: CGPoint) -> (width: CGFloat, height: CGFloat){
         return (startPoint.x - endPoint.x, startPoint.y - endPoint.y)
     }
     
+    //Calculate scalar distance from vector
     private class func scalarDistanceFromVectorDistances(width: CGFloat, height: CGFloat) -> Double {
         return sqrt(pow(Double(width), 2.0) + pow(Double(height), 2.0))
     }
     
+    //Calculate velocity of gesture
     private class func calculateVelocityForGestureUsing(gestureTime: TimeInterval, and scalarDistance: Double) -> Double {
         return scalarDistance/gestureTime
     }

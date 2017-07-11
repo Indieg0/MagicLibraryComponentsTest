@@ -18,7 +18,7 @@ class SocketManager: WebSocketDelegate {
         return socket.isConnected
     }
     
-    private init() {
+    init() {
         socket.delegate = self
     }
     
