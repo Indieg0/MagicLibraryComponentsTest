@@ -1,0 +1,18 @@
+PODS:
+  - AssociatedValues (3.0.0)
+  - jetfire (0.1.5)
+  - Starscream (2.0.4)
+
+DEPENDENCIES:
+  - AssociatedValues
+  - jetfire (= 0.1.5)
+  - Starscream
+
+SPEC CHECKSUMS:
+  AssociatedValues: 5c29f5c0bb2672cf9ef0394bcbe3ce28b9fa0c2a
+  jetfire: 60c16cd6ae0282928e24203eb93f03b89c1929ce
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+
+PODFILE CHECKSUM: f652eb7c475bbdd04aca16604235adc50621c2de
+
+COCOAPODS: 1.1.1
